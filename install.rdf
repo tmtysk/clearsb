@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{786ac958-0f07-46cf-b072-529a4160e8fe}</em:id>
+    <em:name>clearsb</em:name>
+    <em:version>0.1</em:version>
+    <em:description>検索アクション後に検索ボックスに入力した文字列をクリアする</em:description>
+    <em:creator>tmtysk</em:creator>
+    <em:homepageURL>http://blog.tmty.jp/</em:homepageURL>
+    <em:iconURL>chrome://clearsb/skin/clearsb.png</em:iconURL>
+    <em:aboutURL>chrome://clearsb/content/about.xul</em:aboutURL>
+    <em:type>2</em:type>
+
+    <!-- Target Application this extension can install into, 
+       with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+    <Description>
+      <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+      <em:minVersion>2.0.0.0</em:minVersion>
+      <em:maxVersion>3.0.*</em:maxVersion>
+    </Description>
+    </em:targetApplication>
+
+  </Description>      
+</RDF>

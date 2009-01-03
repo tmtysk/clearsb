@@ -1,0 +1,3 @@
+overlay chrome://browser/content/browser.xul chrome://clearsb/content/clearsb.xul
+content clearsb jar:chrome/clearsb.jar!/content/
+skin clearsb default jar:chrome/clearsb.jar!/skin/

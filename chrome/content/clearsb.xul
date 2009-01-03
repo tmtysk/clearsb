@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<overlay id="clearsbOverlay"
+ xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ // JavaScript をインポートする
+ <script type="application/x-javascript" src="chrome://clearsb/content/clearsb.js">
+ </script>
+</overlay>
